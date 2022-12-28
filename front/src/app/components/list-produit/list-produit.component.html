@@ -1,0 +1,43 @@
+
+<header class="header">
+    <h1 class="logo"><a href="#">Produits</a></h1>
+  <ul class="main-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+</header> 
+
+<div class="container mt-5">
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search..."
+        [(ngModel)]="filterterm"
+      />
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">photo</th>
+        <th scope="col">nom</th>
+        <th scope="col">prix</th>
+        <th scope="col">quantite</th>
+        <th scope="col">categorie</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of produits| filter: filterterm">
+            <td> {{p.id}}</td>
+            <td><img src="http://localhost:8080/restapiproduit/getImage/{{p.id}}" width="50" height="50"></td>
+            <td><a routerLink="/all/{{p.id}}"routerLinkActive="active"ariaCurrentWhenActive="all">{{p.nom}}</a></td>
+            <td>{{p.prix}}</td>
+            <td>{{p.quantite}}</td>
+            <td>{{p.categorie.nom}}</td>
+        
+        </tr>
+      
+    </tbody>
+  </table>
+  
