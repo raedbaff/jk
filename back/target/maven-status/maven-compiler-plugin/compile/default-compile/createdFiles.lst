@@ -1,0 +1,11 @@
+com\FormationSpringBoot\GestionProduit\restcontroller\ProduitRestController.class
+com\FormationSpringBoot\GestionProduit\service\IServiceProduit.class
+com\FormationSpringBoot\GestionProduit\service\ServiceCategorie.class
+com\FormationSpringBoot\GestionProduit\entities\Produit.class
+com\FormationSpringBoot\GestionProduit\ProduitControlleur.class
+com\FormationSpringBoot\GestionProduit\service\IServiceCategorie.class
+com\FormationSpringBoot\GestionProduit\entities\Categorie.class
+com\FormationSpringBoot\GestionProduit\dao\CategorieRepository.class
+com\FormationSpringBoot\GestionProduit\service\ServiceProduit.class
+com\FormationSpringBoot\GestionProduit\dao\ProduitRepository.class
+com\FormationSpringBoot\GestionProduit\GestionProduitApplication.class

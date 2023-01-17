@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Built-By: User
 Build-Jdk: 15.0.2
-Implementation-Title: GestionProduit
+Implementation-Title: GestionProduit-dev
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.FormationSpringBoot
 Implementation-URL: https://spring.io/projects/spring-boot/GestionProdui
- t
+ t-dev
 Created-By: Maven Integration for Eclipse
 
